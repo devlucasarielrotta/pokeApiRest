@@ -90,6 +90,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Correr el SEED para poblar la base de datos en el endpoint /SEED
+```
+localhost:3000/api/v2/SEED
+```
+
 ## Stack usado
 * MongoDB
 * Nest
